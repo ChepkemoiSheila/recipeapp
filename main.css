@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Secular One';
+    
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.recipeContainer{
+    width: 100%;
+    height: auto;
+
+}
+.titleName{
+   text-align: center;
+   font-size: 70px;
+   letter-spacing: 4px;
+   margin-bottom: 60px;
+   padding: 10px;
+}
+form{
+   
+    margin: auto;
+    
+    background-color: transparent;
+    align-items: center;
+    max-width: 500px;
+   
+
+  
+}
+input{
+    width: 85%; 
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-top: 0px; 
+    align-items: center;
+    display: inline-block;
+    font-family: cursive;
+    padding: 10px;
+}
+.resultsRecipe{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template: auto / repeat(auto-fit, minmax(300px,1fr));
+}
+.resultsItem{
+    width: 100%;
+    background-color: silver;
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.view{
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+
+}
+
+
+
